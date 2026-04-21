@@ -1,0 +1,3 @@
+symbol,rules_trades,rules_wins,rules_wr,rules_pnl,ml_trades,ml_wins,ml_wr,ml_pnl
+GOLD_CFD,12,7,58.3,508.02,1,0,0.0,-39.66
+SILVER_CFD,11,5,45.5,596.02,3,1,33.3,177.58
