@@ -20,6 +20,19 @@
 ================================================================================
 """
 
+import subprocess
+import os
+
+data_exists = os.path.exists("02_data/with_indicators/GOLD_CFD.csv")
+
+if not data_exists:
+    st.info("⏳ Running pipeline for the first time... this takes ~2 minutes.")
+    subprocess.run(["python", "01_data_updater_cfd.py"])
+    subprocess.run(["python", "02_feature_engineering_cfd.py"])
+    subprocess.run(["python", "03_signal_generator_cfd.py"])
+    st.rerun()
+
+
 import streamlit as st
 import pandas as pd
 import numpy as np
