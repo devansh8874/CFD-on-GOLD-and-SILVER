@@ -322,7 +322,10 @@ This project is developed strictly for **academic research purposes** as part of
 
 **Devansh** — MBA Candidate  
 Department of Management Studies  
-S.V. National Institute of Technology (SVNIT), Surat
+S.V. National Institute of Technology (SVNIT), Surat 
+https://cfdsilvergoldapp-devanshpatelsvnit14.streamlit.app
+
+
 
 ---
 
